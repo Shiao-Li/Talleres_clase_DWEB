@@ -2,7 +2,7 @@
 <section class="page-section mt-5" id="login">
     <div class="container">
         <!-- Contact Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">All my Portfolios {{user}}</h2>
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">All my Portfolios</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
@@ -34,6 +34,7 @@
                                     <a href="/portafolio/edit/{{_id}}">
                                         <button class="btn btn-warning btn-sm">Update</button>
                                     </a>
+
                                     <form action="/portafolio/delete/{{_id}}?_method=DELETE" method="POST"
                                         class="d-inline">
                                         <input type="hidden" name="_method" value="DELETE">

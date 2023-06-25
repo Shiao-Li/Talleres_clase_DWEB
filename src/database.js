@@ -1,8 +1,9 @@
 const mongoose = require('mongoose')
 
+// Conexion a base de datos local
 const MONGODB_URI = 'mongodb://0.0.0.0:27017/portafolio'
-const {DBUSER,DBPASSWORD,DBNAME} = process.env
-
+// Conexion a base de datos en la nube
+// const {DBUSER,DBPASSWORD,DBNAME} = process.env
 
 connection = async()=>{
     try {
